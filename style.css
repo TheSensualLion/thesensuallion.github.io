@@ -12,7 +12,7 @@ html, body {
 	justify-content: center;
 }
 
-@media screen and (max-width: 1125) {
+@media screen and (max-width: 356) {
 	.navbar.navbar-expand-lg.navbar-light.bg-light {
 		opacity: 0;
 	}
@@ -116,7 +116,7 @@ html, body {
 	padding-bottom: 80px;
 }
 
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1126px) {
 	.flexShop{
 		width: 100%;
 	}
@@ -128,7 +128,7 @@ html, body {
 	margin: 20px 0px;
 	color: rgb(39, 48, 78);
 	font-size: x-large;
-	font-family: "Roboto Light"
+	font-family: "Futura"
 }
 
 .card00 {
@@ -145,18 +145,18 @@ html, body {
 	object-fit: cover;
 }
 
-@media screen and (max-width: 1125px){
+@media screen and (max-width: 1126px){
 	.card00 {
 		width: 40%;
-		height: 140px;
-		margin: 40px 5px 15px 5px;
+		height: 450px;
+		margin: 15px 5px;
 	}
 } 
 
-@media screen and (max-width: 1125px){
+@media screen and (max-width: 1126px){
 	.card-img-top00 {
 		width: 100%;
-		height: 140px;
+		height: 380px;
 		object-fit: cover;
 	}
 }
@@ -165,7 +165,7 @@ html, body {
 	border-radius: 5px 5px 0px 0px;
 }
 
-@media screen and (max-width: 1125px){
+@media screen and (max-width: 1126px){
 	.topLeftRightBorder {
 		border-radius: 2px 2px 0px 0px;
 	}
@@ -177,15 +177,15 @@ html, body {
 
 .card-text {
 	text-align: center;
-	font-family: "Roboto Light";
+	font-family: "Roboto";
 }
 
-@media screen and (max-width: 1125px){
+@media screen and (max-width: 1126px){
 	.card-text {
 		text-align: left;
 		color: #A3A29F;
-		font-family: "Roboto Light";
-		font-size: 12px;
+		font-family: "Roboto";
+		font-size: 22px;
 	}	
 
 }
@@ -207,7 +207,7 @@ html, body {
 	width: 100%;
 	opacity: 0.0;
 	position: absolute;
-    font-family: "Roboto Light";
+    font-family: "Roboto";
     transition: 0.2s ease-in-out;
 }
 
@@ -258,7 +258,7 @@ html, body {
 	position: absolute;
  	text-align: center;
  	color: #fff;
- 	font-family: "Roboto Light";
+ 	font-family: "Roboto";
  	font-size: 18px;
  	letter-spacing: 2px;
  	border: 2px solid white;
@@ -283,10 +283,10 @@ html, body {
 	height: 600px;
 }
 
-@media screen and (max-width: 1125px){
+@media screen and (max-width: 1126px){
 	.featuredProduct {
 		width: 70%;
-		height: 200px;
+		height: 800px;
 	}
 }
 
@@ -297,10 +297,10 @@ html, body {
 	margin: 20px;
 }
 
-@media screen and (max-width: 1125px){
+@media screen and (max-width: 1126px){
 	.featured-img-top {
 		width: 100%;
-		height: 160px;
+		height: 700px;
 	}
 }
 
@@ -317,10 +317,10 @@ html, body {
     transition: 0.2s ease-in-out;
 }
 
-@media screen and (max-width: 1125px){
+@media screen and (max-width: 1126px){
 	.centered2 {
 		width: 100%;
-		height: 160px;
+		height: 700px;
 	}
 }
 
@@ -346,7 +346,7 @@ html, body {
 	overflow: hidden;
 }
 
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1126px) {
 	.footer-background {
 		height: 100%;
 		width: 100%;
@@ -366,7 +366,7 @@ html, body {
 	object-fit: cover;
 }
 
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1126px) {
 	.footer-background-pic {
 		height: 100%;
 		display: flex;
@@ -377,14 +377,14 @@ html, body {
 }
 
 .info {
-	font-family: "Roboto Light";
+	font-family: "Roboto";
 	width: 33%;
 	margin: 30px;
 }
 
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1126px) {
 	.info {
-		font-family: "Roboto Light";
+		font-family: "Roboto";
 		font-size: 12px;
 		width: 100%;
 		margin: 10px;
@@ -454,27 +454,27 @@ button:hover {
 }
 
 h1 {
-	font-family: "Roboto Light";
+	font-family: "Roboto";
 	font-size: 24px;
 }
 
-@media screen and (max-width: 1125px){
+@media screen and (max-width: 1126px){
 	h1 {
-		font-family: "Roboto Light";
+		font-family: "Roboto";
 		font-size: 16px;
 		text-align: center;
 	}
 }
 
 .form-text {
-	font-family: "Roboto Light";
+	font-family: "Roboto";
 	font-size: 18px;
 
 }
 
-@media screen and (max-width: 1125px){
+@media screen and (max-width: 1126px){
 	.form-text {
-		font-family: "Roboto Light";
+		font-family:"Roboto";
 		font-size: 12px;
 		text-align: center;
 	}
@@ -484,7 +484,7 @@ label {
 	margin: 0px;
 }
 
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1126px) {
 	.terms-conditions {
 		font-size: 12px;
 		text-align: center;
