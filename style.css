@@ -10,12 +10,7 @@ html, body {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-}
-
-@media screen and (max-width: 356) {
-	.navbar.navbar-expand-lg.navbar-light.bg-light {
-		opacity: 0;
-	}
+	width: 100%;
 }
 
 .nav-link {
@@ -30,19 +25,86 @@ html, body {
 	width: 100%;
 }
 
+.logonav {
+	width: 50px;
+	height: 50px;
+}
+
+@media screen and (max-width: 1126px) {
+	.background-div {
+		display: flex;
+		flex-direction: row;
+		height: 300px;
+		width: 100%;
+	}
+	.navbar.navbar-expand-lg.navbar-light.bg-light {
+		background-color: #fff!important;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+	.logonav {
+		width: 150px;
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 1126px) {
+	.background-div {
+		display: flex;
+		flex-direction: row;
+		height: 300px;
+		width: 100%;
+	}
+	.navbar.navbar-expand-lg.navbar-light.bg-light {
+		background-color: #fff!important;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+	.logonav {
+		width: 150px;
+		height: 150px;
+	}
+}
+
+.navbar-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
 .navbar-nav.mr-auto {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
+	margin-right: 0px!important;
 }
 
 .nav-item {
-	margin: 20px;
+	margin: 20px 60px;
+	font-size: 22px;
 }
 
 .nav-item.active {
-	margin: 20px;
+	margin: 20px 60px;
 }
+
+@media screen and (max-width: 1126px) {
+	.nav-item {
+		margin: 20px 60px;
+		font-size: 28px;
+	}
+
+	.nav-item.active {
+		margin: 20px 60px;
+	}
+}
+
 
 .slider-background {
 	display: flex;
@@ -52,6 +114,18 @@ html, body {
 	width: 100%;
 	position: relative;
 	overflow: hidden;
+}
+
+@media screen and (max-width: 1126px) {
+	.slider-background {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 700px;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+	}
 }
 
 .slider-background-pic {
@@ -74,7 +148,7 @@ html, body {
  	width: 100%;
  	color: #fff;
  	font-family: "Futura";
- 	font-size: xx-large;
+ 	font-size: 64px;
  	letter-spacing: 8px;
  	margin: auto;
  }
@@ -93,6 +167,25 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 1126px) {
+	 .btn.btn-primary {
+		position: absolute;
+	 	text-align: center;
+	 	color: #fff;
+	 	font-family: "Roboto";
+	 	font-weight: 100;
+	 	font-size: 36px;
+	 	letter-spacing: 2px;
+	 	border: 2px solid white;
+	 	width: 450px;
+	 	background-color: rgba(183, 110, 121, 0.0);
+		top: 75%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+}
+
 
  .btn.btn-primary:hover {
  	background-color: #fff;
@@ -290,7 +383,7 @@ strong {
 @media screen and (max-width: 1126px){
 	.featuredProduct {
 		width: 70%;
-		height: 800px;
+		height: 900px;
 	}
 }
 
