@@ -81,6 +81,10 @@ html, body {
 }
 
 @media screen and (max-width: 1126px){
+	.carousel-control-next-icon, .carousel-control-prev-icon{
+		width: 80px;
+		height: 80px;
+	}
 	.addToCart {
 		display: flex;
 		flex-direction: column;
