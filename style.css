@@ -131,6 +131,13 @@ html, body {
 	font-family: "Futura"
 }
 
+@media screen and (max-width: 1126px) {
+	.sectionTitle {
+		margin-top: 40px;
+		font-size: 56px;
+	}
+}
+
 .card00 {
 	margin: 20px;
 	border: 0px;
@@ -148,8 +155,8 @@ html, body {
 @media screen and (max-width: 1126px){
 	.card00 {
 		width: 45%;
-		height: 600px;
-		margin: 25px 15px;
+		height: 700px;
+		margin: 40px 15px;
 	}
 } 
 
@@ -179,8 +186,10 @@ strong {
 	.card-text {
 		text-align: left;
 		color: #A3A29F;
-		font-family: 'Open Sans Condensed', sans-serif;
-		font-size: 26px;
+		font-family: 'Roboto light', sans-serif;
+		font-size: 28pt;
+		margin: 15px;
+		font-weight: 100;
 	}	
 
 }
