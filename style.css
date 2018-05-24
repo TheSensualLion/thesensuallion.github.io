@@ -308,12 +308,13 @@ strong {
     transition: 0.2s ease-in-out;
 }
 
-.centered:hover {
+/*.centered:hover {
 	opacity: 1;
 	background-color: rgba(0,0,0,0.4);
 	cursor: pointer;
+	font-size: 38px;
 
-}
+}*/
 
 .shopAll-slider {
 	display: flex;
@@ -421,12 +422,11 @@ strong {
 	}
 }
 
-.centered2:hover {
+/*.centered2:hover {
 	opacity: 1;
 	background-color: rgba(0,0,0,0.4);
 	cursor: pointer;
-
-}
+}*/
 
 .quickView {
 	color: #fff;
