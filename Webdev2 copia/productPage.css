@@ -1,0 +1,136 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+.containerProductPage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	max-width: 100%;
+}
+
+.horizontal-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	height: 50%;
+	padding: 15px;
+}
+
+.image-carousel {
+	width: 50%;
+	height: 100%;
+	margin-right: 7.5px;
+}
+
+#carouselExampleControls {
+	height: 100%;
+	width: 100%;
+}
+
+.carousel-inner {
+	height: 100%;
+	width: 100%;
+}
+
+.carousel-item.active {
+	height: 100%;
+}
+
+.w-100 {
+	height: 100%;
+	object-fit: cover;
+}
+
+.addToCart {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+	padding: 30px;
+	margin-left: 7.5px;
+	font-family: "Helvetica Neue Light"
+}
+
+.price {
+	font-size: 22px;
+	margin: 12px;
+}
+
+.input-group.mb-3 {
+	width: 80%;
+}
+
+.input-group-prepend {
+	width: 20%;
+}
+
+.input-group-text {
+	background-color: transparent;
+	width: 100%;
+	border: 0px;
+	border-radius: 0;
+}
+
+.btn.btn-dark {
+	width: 80%;
+	border-radius: 0;
+	margin: 12px;
+}
+
+.product-description {
+	margin: 12px;
+}
+
+.horizontal-bottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 50%;
+	padding: 15px;
+}
+
+.moreProducts {
+	width: 100%;
+	height: 100%;
+}
+
+.sameCollection {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
