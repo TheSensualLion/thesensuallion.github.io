@@ -83,7 +83,7 @@ html, body {
 	position: absolute;
  	text-align: center;
  	color: #fff;
- 	font-family: "Helvetica Neue Light";
+ 	font-family: "Futura";
  	font-size: 18px;
  	letter-spacing: 2px;
  	border: 2px solid white;
@@ -128,7 +128,7 @@ html, body {
 	margin: 20px 0px;
 	color: rgb(39, 48, 78);
 	font-size: x-large;
-	font-family: "Helvetica Neue Thin"
+	font-family: "Roboto Light"
 }
 
 .card00 {
@@ -177,14 +177,14 @@ html, body {
 
 .card-text {
 	text-align: center;
-	font-family: "Helvetica Neue Thin";
+	font-family: "Roboto Light";
 }
 
 @media screen and (max-width: 600px){
 	.card-text {
 		text-align: left;
 		color: #A3A29F;
-		font-family: "Helvetica Neue Light";
+		font-family: "Roboto Light";
 		font-size: 12px;
 	}	
 
@@ -207,7 +207,7 @@ html, body {
 	width: 100%;
 	opacity: 0.0;
 	position: absolute;
-    font-family: "Helvetica Neue Thin";
+    font-family: "Roboto Light";
     transition: 0.2s ease-in-out;
 }
 
@@ -258,7 +258,7 @@ html, body {
 	position: absolute;
  	text-align: center;
  	color: #fff;
- 	font-family: "Helvetica Neue Light";
+ 	font-family: "Roboto Light";
  	font-size: 18px;
  	letter-spacing: 2px;
  	border: 2px solid white;
@@ -312,7 +312,7 @@ html, body {
 	width: 100%;
 	opacity: 0.0;
 	position: absolute;
-    font-family: "Helvetica Neue";
+    font-family: "Roboto";
     font-size: 24px;
     transition: 0.2s ease-in-out;
 }
@@ -377,14 +377,14 @@ html, body {
 }
 
 .info {
-	font-family: "Helvetica Neue Light";
+	font-family: "Roboto Light";
 	width: 33%;
 	margin: 30px;
 }
 
 @media screen and (max-width: 600px) {
 	.info {
-		font-family: "Helvetica Neue Light";
+		font-family: "Roboto Light";
 		font-size: 12px;
 		width: 100%;
 		margin: 10px;
@@ -454,27 +454,27 @@ button:hover {
 }
 
 h1 {
-	font-family: "Helvetica Neue";
+	font-family: "Roboto Light";
 	font-size: 24px;
 }
 
 @media screen and (max-width: 600px){
 	h1 {
-		font-family: "Helvetica Neue";
+		font-family: "Roboto Light";
 		font-size: 16px;
 		text-align: center;
 	}
 }
 
 .form-text {
-	font-family: "Helvetica Neue Light"
+	font-family: "Roboto Light";
 	font-size: 18px;
 
 }
 
 @media screen and (max-width: 600px){
 	.form-text {
-		font-family: "Helvetica Neue";
+		font-family: "Roboto Light";
 		font-size: 12px;
 		text-align: center;
 	}
