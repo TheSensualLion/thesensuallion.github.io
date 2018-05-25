@@ -6,7 +6,7 @@ html, body {
 
 .containerProductPage {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	height: 100%;
 	width: 100%;
@@ -19,16 +19,18 @@ html, body {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	width: 100%;
+	width: 75%;
 	height: 50%;
+	margin: auto;
 	padding: 15px;
+	border-bottom: 1px solid grey;
 }
 
 .image-carousel {
 	width: 50%;
 	height: 100%;
 	object-fit: contain;
-	padding: 0px 100px;
+	padding-left: 160px;
 }
 
 @media screen and (max-width: 1126px){
@@ -172,7 +174,7 @@ html, body {
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
-	height: 100%;
+	height: 50%;
 	padding: 15px;
 }
 
