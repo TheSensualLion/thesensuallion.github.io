@@ -20,18 +20,24 @@ html, body {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	width: 75%;
-	height: 50%;
+	width: 65%;
+	height: 60%;
 	margin: auto;
 	padding: 15px;
 	border-bottom: 1px solid grey;
 }
 
+.productTotal {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
 .image-carousel {
-	width: 50%;
+	width: 100%;
 	height: 100%;
 	object-fit: contain;
-	padding-left: 160px;
+	padding-left: 100px;
 }
 
 @media screen and (max-width: 1126px){
@@ -40,8 +46,17 @@ html, body {
 		flex-direction: column;
 		justify-content: center;
 		width: 100%;
-		height: 80%;
+		height: 100%;
 		padding: 15px;
+	}
+	.productTotal {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100%;
+		height: 100%;
+		margin: 0px;
 	}
 	.image-carousel {
 		width: 100%;
@@ -83,6 +98,22 @@ html, body {
 	font-family: "Roboto"
 }
 
+.piece-title {
+	font-family: 'Roboto'
+	font-weight: 300;
+	font-size: 28px;
+	margin: 12px;
+	color: rgb(87, 87, 87);
+}
+
+.product-code {
+	font-family: 'Roboto'
+	font-weight: 300;
+	font-size: 14px;
+	margin: 12px;
+	color: rgb(152, 152, 152);	
+}
+
 @media screen and (max-width: 1126px){
 	.carousel-control-next-icon, .carousel-control-prev-icon{
 		width: 80px;
@@ -100,15 +131,29 @@ html, body {
 	.cartContent {
 		position: relative;
 	}
+	.piece-title {
+		font-family: 'Roboto'
+		font-weight: 300;
+		font-size: 48px;
+		color: rgb(87, 87, 87);
+	}
+	.product-code {
+		font-family: 'Roboto'
+		font-weight: 300;
+		font-size: 26px;
+		margin: 12px;
+		color: rgb(152, 152, 152);
+	}
 }
 
 .price {
 	font-size: 22px;
 	margin: 12px;
+	color: rgb(87, 87, 87);	
 }
 
 .input-group.mb-3 {
-	width: 80%;
+	width: 100%;
 }
 
 .input-group-prepend {
@@ -123,7 +168,7 @@ html, body {
 }
 
 .btn.btn-dark {
-	width: 80%;
+	width: 100%;
 	border-radius: 0;
 	margin: 12px;
 	font-family: 'Roboto', serif;
@@ -132,6 +177,9 @@ html, body {
 
 .product-description {
 	margin: 12px;
+	color: rgb(69, 69, 69);
+	font-family: 'Roboto';
+	font-weight: 300;
 }
 
 @media screen and (max-width: 1126px) {
