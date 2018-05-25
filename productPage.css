@@ -94,11 +94,9 @@ html, body {
 		padding: 30px;
 		margin-left: 7.5px;
 		font-family: "Roboto";
-		top: 0px;
 	}
 	.cartContent {
 		position: relative;
-		top: -120px;
 	}
 }
 
