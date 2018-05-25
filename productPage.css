@@ -27,8 +27,8 @@ html, body {
 .image-carousel {
 	width: 50%;
 	height: 100%;
-	margin-right: 7.5px;
 	object-fit: contain;
+	padding: 0px 100px;
 }
 
 @media screen and (max-width: 1126px){
@@ -44,6 +44,7 @@ html, body {
 		width: 100%;
 		height: 55%;
 		object-fit: contain;
+		padding: 0px;
 	}
 	.containerProductPage {
 		height: 100%;
@@ -76,7 +77,6 @@ html, body {
 	width: 50%;
 	height: 100%;
 	padding: 30px;
-	margin-left: 7.5px;
 	font-family: "Roboto"
 }
 
@@ -92,7 +92,6 @@ html, body {
 		width: 100%;
 		height: 100%;
 		padding: 30px;
-		margin-left: 7.5px;
 		font-family: "Roboto";
 	}
 	.cartContent {
