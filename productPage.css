@@ -6,7 +6,7 @@ html, body {
 
 .containerProductPage {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	height: 100%;
 	width: 100%;
@@ -98,7 +98,7 @@ html, body {
 	}
 	.cartContent {
 		position: relative;
-    	top: -150px;
+    	top: -120px;
 	}
 }
 
